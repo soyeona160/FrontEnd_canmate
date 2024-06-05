@@ -1,6 +1,7 @@
 import React from "react";
 import styled from 'styled-components'
 import Card from './Card'
+import mongoose from "mongoose";
 
 const CardWrapper = () =>{
     return(

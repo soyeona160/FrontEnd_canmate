@@ -12,4 +12,6 @@ router.post('/register')
 
 router.post('/login')
 
-router.
+router.put('/users/modify')
+
+router.delete('')

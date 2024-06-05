@@ -35,6 +35,11 @@ const postSchema = new Schema({
     memberMax: {
         type: Number,
         default: 6
+    },
+    tag: {
+        type: Array,
+        trim: true,
+        default: []
     }
 })
 
